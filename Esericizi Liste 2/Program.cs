@@ -27,8 +27,9 @@
             int scelta=Convert.ToInt32 (Console.ReadLine());
 
             for (int i = 0; i < numeri1.Count; i++)
-            { 
-                
+            {
+                int v = 0;
+               
 
             }
 
@@ -42,6 +43,7 @@
 
             //Rotazione della Lista
             List<int> numeri1 = new List<int>() { 1, 2, 3, 4, 5 };
+            Rotazione(numeri1);
         }
     }
 }
